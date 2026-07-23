@@ -114,11 +114,12 @@ const response = await axios.post(
   };
 
   return (
-    <Container maxWidth="sm" sx={{ my: { xs: 4, md: 7 } }}>
+    <Container maxWidth="sm">
       <Paper
         elevation={5}
         sx={{
-          p: { xs: 2.5, sm: 4 },
+          mt: 5,
+          p: 4,
           borderRadius: 3,
         }}
       >
